@@ -1,17 +1,17 @@
-#Project: Data Modeling with Cassandra
+# Project: Data Modeling with Cassandra
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
 
 They wanted a data engineer to create an Apache Cassandra database which could create queries on song play data to answer the questions, and brought me on the project. My role was to create a database for this analysis.
 
-#Project Overview
+# Project Overview
 In this project, I modeled my data by creating tables in Apache Cassandra to run queries.
 
-#Project Steps
+# Project Steps
 Below are steps I completed.
 
-#NOTE: CODE LOCATED IN A JUPYTER NOTEBOOK CALLED 'Project_Notebook.ipynb'
+# NOTE: CODE LOCATED IN A JUPYTER NOTEBOOK CALLED 'Project_Notebook.ipynb'
 
-##Modeling the Apache Cassandra database
+## Modeling the Apache Cassandra database
 - Tables where designed to answer the queries outlined in the project template.
 - Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements were written.
 - CREATE statements for each of the tables was written to address each question.
